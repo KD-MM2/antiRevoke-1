@@ -1,4 +1,5 @@
 var domains = {
+  "iadsdk.apple.com": 1,
   "ocsp.int-x3.letsencrypt.org": 1,
   "ocsp.apple.com": 1,
   "gdmf.apple.com": 1,
