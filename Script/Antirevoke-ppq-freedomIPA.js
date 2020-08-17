@@ -14,6 +14,7 @@ var proxy = "PROXY 127.0.0.1:1080;";
 var direct = "DIRECT;";
 
 function FindProxyForURL(url, host) {
+  host = host.toLowerCase();
   var lastPos;
   do {
     if (domains.hasOwnProperty(host)) {
