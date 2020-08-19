@@ -1,8 +1,8 @@
 var domains = {
   // Apple OCSPs
   "ocsp.apple.com": 1,
-  "ocsp-reno01.apple.com": 1,
-  "ocsp-reno02.apple.com": 1,
+  // "ocsp-reno01.apple.com": 1,
+  // "ocsp-reno02.apple.com": 1,
   // Other OCSPs
   "ocsp.int-x3.letsencrypt.org": 1,
   "ocsp.usertrust.com": 1,
