@@ -1,13 +1,8 @@
 var domains = {
-  // Apple OCSPs
   "ocsp.apple.com": 1,
-  // "ocsp-reno01.apple.com": 1,
-  // "ocsp-reno02.apple.com": 1,
-  // Other OCSPs
+  "ocsp-reno01.apple.com": 1,
+  "ocsp-reno02.apple.com": 1,
   "ocsp.int-x3.letsencrypt.org": 1,
-  "ocsp.usertrust.com": 1,
-  "ocsp.digicert.com": 1,
-  // Other Apple Servers
   'world-gen.g.aaplimg.com':1,
 };
 var proxy = "PROXY 127.0.0.1:1080;";
