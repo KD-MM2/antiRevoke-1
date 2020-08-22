@@ -3,7 +3,14 @@ var domains = {
   "ocsp-reno01.apple.com": 1,
   "ocsp-reno02.apple.com": 1,
   "ocsp.int-x3.letsencrypt.org": 1,
-  'world-gen.g.aaplimg.com':1,
+  "world-gen.g.aaplimg.com":1,
+  "crl.apple.com": 1,
+  "crl.entrust.net": 1,
+  "crl3.digicert.com": 1,
+  "crl4.digicert.com": 1,
+  "ocsp.digicert.com": 1,
+  "ocsp.entrust.net": 1,
+  "ocsp.verisign.net": 1,
   "ppq.apple.com":1
 };
 var proxy = "PROXY 127.0.0.1:1080;";
