@@ -9,6 +9,7 @@ var domains = {
   "crl3.digicert.com": 1,
   "crl4.digicert.com": 1,
   "ocsp.digicert.com": 1,
+  "ocsp2.digicert.com": 1,
   "ocsp.entrust.net": 1,
   "ocsp.verisign.net": 1,
 };
