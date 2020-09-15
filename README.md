@@ -10,12 +10,12 @@ This method protects your revoked certificate from Apple. That means you can hol
 ### Edit backup by 3uTools
 * Open 3uTools. Access `Tools box`, then click on `Backup/Restore`. In `all-data backups view`, if you backed up your phone by iTunes, you should add this backup into 3uTools by the `Add backup` button. Then, the recent backup appear. Click on `Pro mode`.
 
-<div align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/01.jpg)</div)
+![](https://github.com/giantrule/antiRevoke/raw/master/imgs/01.jpg)
 
 * Try to find and access to the file `CloudConfigurationDetails.plist` by this direction `SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles`/`Library`/`ConfigurationProfiles`.
 * Open `CloudConfigurationDetails.plist`, change value of `<key>IsSupervised</key><false/>` from `<false/>` to `<true/>`. Then click on `Save` button and close it. Re-open this file and check again to make sure you changed the value.
 
-<div align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/02.jpg)</div>
+<p align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/02.jpg)</p>
 
 ### Restore your iPhone
 * Connect your phone to the computer
@@ -23,7 +23,7 @@ This method protects your revoked certificate from Apple. That means you can hol
 * Make sure you chose the right backup that modified recently. Click on `Restore all data` then follow the 3uTools instruction.
 * After the restore process, your phone will restart and you have to sign in your Apple ID after that. Finish the setup steps then open `Settings`, you will see the supervision mode notice.
 
-<div align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/03.png)</div>
+<p align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/03.png)</p>
 
 * If the process is fail, you can not see the notice about supervised mode. I have no idea about the reason why it's fail. I tried for my friend many times but I can not figure out. My advice is repeat the whole process from backing up, editing backup then restoring.
 * If it still didn't work. I think you should reset your phone to a new phone (erase all settings and contents) then start again. Sorry for that.
@@ -35,10 +35,10 @@ This method protects your revoked certificate from Apple. That means you can hol
 ## Step 3: Install your app without revocation from Apple
 Yeah. It's a very simple step. Install your app by a certificate, even a revoked certificate. Try it.
 
-<div align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/04.png)</div>
+<p align="center">![](https://github.com/giantrule/antiRevoke/raw/master/imgs/04.png)</p>
 
 ## If it helps you, you can give me a cup of coffee
-<div align="center">[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)</div>
+<p align="center">[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)</p>
 
 ### Credit
 Modded from https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock
