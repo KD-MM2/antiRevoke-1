@@ -7,6 +7,7 @@ This method protects your revoked certificate from Apple. That means you can hol
 ### Backup your phone
 You can back up your iPhone by iTunes for Windows [x64](https://www.apple.com/itunes/download/win64/)/[x32](https://www.apple.com/itunes/download/win32/) or [3uTools](http://www.3u.com/). But you have to install 3uTools for the next steps.
 ### Edit backup by 3uTools
+* Connect your phone to the computer
 * Open 3uTools. Access `Tools box`, then click on `Backup/Restore`. In `all-data backups view`, if you backed up your phone by iTunes, you should add this backup into 3uTools by the `Add backup` button. Then, the recent backup appear. Click on `Pro mode`.
 
 ![](https://github.com/giantrule/antiRevoke/raw/master/imgs/01.jpg)
