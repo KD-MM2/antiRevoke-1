@@ -29,7 +29,7 @@ This method protects your revoked certificate from Apple. That means you can hol
 * After the restore process, your phone will restart and you have to sign in your Apple ID after that. Finish the setup steps then open `Settings`, you will see the supervision mode notice.
 
 <p align="center">
-  <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/03.jpg">
+  <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/03.png">
 </p>
 
 * If the process is fail, you can not see the notice about supervised mode. I have no idea about the reason why it's fail. I tried for my friend many times but I can not figure out. My advice is repeat the whole process from backing up, editing backup then restoring.
@@ -43,7 +43,7 @@ This method protects your revoked certificate from Apple. That means you can hol
 Yeah. It's a very simple step. Install your app by a certificate, even a revoked certificate. Try it.
 
 <p align="center">
-  <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/04.jpg">
+  <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/04.png">
 </p>
 
 ## If it helps you, you can give me a cup of coffee
