@@ -51,4 +51,4 @@ Yeah. It's a very simple step. Install your app by a certificate, even a revoked
 
 ### Credit
 * Developed base on https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock
-* Proxy collection by © 2020 @giantrule
+* Proxy collection by © 2020 [@giantrule](https://github.com/giantrule/antiRevoke/)
