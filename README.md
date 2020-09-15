@@ -10,7 +10,7 @@ You can back up your iPhone by iTunes for Windows [x64](https://www.apple.com/it
 * Open 3uTools. Access `Tools box`, then click on `Backup/Restore`. In `all-data backups view`, if you backed up your phone by iTunes, you should add this backup into 3uTools by the `Add backup` button. Then, the recent backup appear. Click on `Pro mode`.
 ![](https://i.imgur.com/crj3blx.jpg)
 * Try to find and access to the file `CloudConfigurationDetails.plist` by this direction `SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles`/`Library`/`ConfigurationProfiles`.
-* Open `CloudConfigurationDetails.plist`, change value of `<key>IsSupervised</key><false/>` from `<false/>` to `<true/>`
+* Open `CloudConfigurationDetails.plist`, change value of `<key>IsSupervised</key><false/>` from `<false/>` to `<true/>`. Then click on `Save` button and close it. Re-open this file and check again to make sure you changed the value.
 ![](https://i.imgur.com/9Gfqsf0.jpg)
 ### Restore your iPhone
 On your phone, open `Settings` then turn off `Find My iPhone`. If you don't know where to do that, you can scroll down from the top of Settings screen to show the search bar. Type `find` then you can see `Find My iPhone` from the search result.
