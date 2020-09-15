@@ -1,6 +1,6 @@
 # antiRevoke
 This method protects your revoked certificate from Apple. That means you can hold the certificate alives forever and easily sign your apps.
-## Disclaimer
+### Disclaimer
 * Your phone will be restored then you have to sign in by the Apple ID on your phone. If you forgot your Apple ID password, please stop here and just read for your knowledge.
 *  I just show the way for block Apple from revoking certificates. I do not sell or distribute the certificate.
 ## Step 1: Turn your iPhone into Supervised mode
