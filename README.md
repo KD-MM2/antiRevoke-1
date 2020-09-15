@@ -50,4 +50,5 @@ Yeah. It's a very simple step. Install your app by a certificate, even a revoked
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)
 
 ### Credit
-Modded from https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock
+Developed base on https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock
+Proxy collection by © 2020 @giantrule
