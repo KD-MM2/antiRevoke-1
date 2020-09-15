@@ -35,7 +35,7 @@ Yeah. It's so simple step. Install your app with a certificate, even a revoked c
 ![](https://github.com/giantrule/antiRevoke/raw/master/imgs/04.png)
 
 ## If it helps you, you can give me a cup of coffee
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](ltn119412@gmail.com)
+![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)
 
 ### Credit
 Modded from https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock
