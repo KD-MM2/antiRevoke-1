@@ -1,4 +1,3 @@
-Readme antiRevoke
 # antiRevoke
 This method protects your revoked certificate from Apple. That means you can hold the certificate alives forever and easily sign your apps.
 ## Disclaimer
