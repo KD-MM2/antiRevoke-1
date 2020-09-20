@@ -1,4 +1,4 @@
-# antiRevoke
+# giantrule | Anti-Revocation - Blocking Ads - Blocking iOS Update for Your iDevices
 This method protects your revoked certificate from Apple. That means you can hold the certificate alives forever and easily sign your apps.
 ### Disclaimer
 * Your phone will be restored then you have to sign in by the Apple ID on your phone. If you forgot your Apple ID password, please stop here and just read for your knowledge. I will not accept responsibility if your phone get any trouble with iCloud. 
@@ -45,6 +45,7 @@ Yeah. It's a very simple step. Install your app by a certificate, even a revoked
 <p align="center">
   <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/04.png">
 </p>
+
 ## Step 4: Block Apple's certificate authenticator server
 * After installing your apps, open them at the first time for verifying your sideload apps and their certificate with Apple.
 * Then, block this Apple's server to decrease the revocation.
@@ -53,4 +54,4 @@ Yeah. It's a very simple step. Install your app by a certificate, even a revoked
 ## If it helps you, you can give me a cup of coffee
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)
 
-### © [@giantrule](https://github.com/giantrule/antiRevoke/) 2020
+### © [giantrule](https://github.com/giantrule/antiRevoke/) 2020
