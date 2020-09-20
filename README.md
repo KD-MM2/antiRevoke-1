@@ -35,7 +35,7 @@ This method protects your revoked certificate from Apple. That means you can hol
 * If the process is fail, you can not see the notice about supervised mode. I have no idea about the reason why it's fail. I tried for my friend many times but I can not figure out. My advice is repeat the whole process from backing up, editing backup then restoring.
 * If it still didn't work. I think you should reset your phone to a new phone (erase all settings and contents) then start again. Sorry for that.
 
-## Step 2: Install suitable profile
+## Step 2: Install your desired profile
 * If you only want to block the revocation from Apple, let's install the normal anti-revoke profile `giantrule-RA.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RA.mobileconfig)
 * If you want block both certificate revocation and iOs update, install the `giantrule-RAU.mobileconfig` profile. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAU.mobileconfig)
 * I'm trying to make an other profile for blocking some ads services. But it is still on the go.
