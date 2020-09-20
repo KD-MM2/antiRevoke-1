@@ -8,7 +8,7 @@
 			<key>PayloadDescription</key>
 			<string>Global HTTP Proxy</string>
 			<key>PayloadDisplayName</key>
-			<string>antiRevoke-giantrule</string>
+			<string>antiRevoke-blockAds-giantrule</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.proxy.http.global.6F6F3A4B-6E3A-4B20-B815-7BC2757C9959</string>
 			<key>PayloadType</key>
@@ -22,7 +22,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/giantrule/antiRevoke/master/Script/antiRevoke-giantrule.js</string>
+			<string>https://raw.githubusercontent.com/giantrule/antiRevoke/master/Script/aRev-Ads-giantrule.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
