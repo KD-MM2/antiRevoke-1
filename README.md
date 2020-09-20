@@ -58,4 +58,5 @@ In cases you want to install a new app, please repeate at Step 2 to 4.
 ## If it helps you, you can give me a cup of coffee
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)
 
-### © 2020 [giantrule](https://github.com/giantrule/antiRevoke/)  | [d2velee](https://twitter.com/d2velee) on Twitter
+### © 2020 [giantrule](https://github.com/giantrule/antiRevoke/) on Github | [d2velee](https://twitter.com/d2velee) on Twitter | [ltn119412](https://www.paypal.com/paypalme/ltn119412) on Paypal
+
