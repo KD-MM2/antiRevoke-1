@@ -4,10 +4,16 @@ This method protects your revoked certificate from Apple. That means you can hol
 * Your phone will be restored then you have to sign in by the Apple ID on your phone. If you forgot your Apple ID password, please stop here and just read for your knowledge. I will not accept responsibility for any iCloud trouble or damage with your phone. 
 * I just show the way for block Apple from revoking certificates. I do not sell or distribute the certificate.
 ## Step 1: Turn your iPhone into Supervised mode
-### Backup your phone
+* If you are using a Mac, follow this instruction to turn on supervised mode for your iphone: [How to Put an iPhone or iPad into “Supervised Mode” to Unlock Powerful Management Features](https://www.howtogeek.com/252286/how-to-put-an-iphone-or-ipad-into-supervised-mode-to-unlock-powerful-management-features/)
+* If you are using a Windows PC, follow this instruction below:
+### For jail-broken device
+* Using `Filza`, search `CloudConfigurationDetails.plist` from `Root`. Open this file, edit `IsSupervised` from `No` to `Yes`.
+* Done
+### For non-jb device
+#### Backup your phone
 * Connect your phone to the computer
 * You can back up your iPhone by iTunes for Windows [x64](https://www.apple.com/itunes/download/win64/)/[x32](https://www.apple.com/itunes/download/win32/) or [3uTools](http://www.3u.com/). But you have to install 3uTools for the next steps.
-### Edit backup by 3uTools
+#### Edit backup by 3uTools
 * Open 3uTools. Access `Tools box`, then click on `Backup/Restore`. In `all-data backups view`, if you backed up your phone by iTunes, you should add this backup into 3uTools by the `Add backup` button. Browse to the following directory `C:\Users\<Your username>\AppData\Roaming\Apple Computer\MobileSync\Backup`. After that, you can see the recent backup. Click on `Pro mode`.
 
 <p align="center">
@@ -22,7 +28,7 @@ This method protects your revoked certificate from Apple. That means you can hol
   <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/02.jpg">
 </p>
 
-### Restore your iPhone
+#### Restore your iPhone
 * Connect your phone to the computer
 * On your phone, open `Settings` then turn off `Find My iPhone`. If you don't know where to do that, you can scroll down from the top of Settings screen to show the search bar. Type `find` then you can see `Find My iPhone` from the search result.
 * Make sure you chose the right backup that modified recently. Click on `Restore all data` then follow the 3uTools instruction.
