@@ -1,7 +1,7 @@
 # giantrule | Anti-Revocation - Blocking Ads - Blocking iOS Update for Your iDevices
 This method protects your revoked certificate from Apple. That means you can hold the certificate alives forever and easily sign your apps.
 ### Disclaimer
-* Your phone will be restored then you have to sign in by the Apple ID on your phone. If you forgot your Apple ID password, please stop here and just read for your knowledge. I will not accept responsibility if your phone get any trouble with iCloud. 
+* Your phone will be restored then you have to sign in by the Apple ID on your phone. If you forgot your Apple ID password, please stop here and just read for your knowledge. I will not accept responsibility for any iCloud trouble or damage with your phone. 
 * I just show the way for block Apple from revoking certificates. I do not sell or distribute the certificate.
 ## Step 1: Turn your iPhone into Supervised mode
 ### Backup your phone
@@ -36,8 +36,8 @@ This method protects your revoked certificate from Apple. That means you can hol
 * If it still didn't work. I think you should reset your phone to a new phone (erase all settings and contents) then start again. Sorry for that.
 
 ## Step 2: Install your desired profile
-* If you only want to block the revocation from Apple, let's install the normal anti-revoke profile `giantrule-RA.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RA.mobileconfig)
-* If you want block both certificate revocation and iOs update, install the `giantrule-RAU.mobileconfig` profile. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAU.mobileconfig)
+* If you only want to block the revocation from Apple, let's install the normal anti-revoke profile `giantrule-RA.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RA.mobileconfig).
+* If you want block both certificate revocation and iOs update, install the `giantrule-RAU.mobileconfig` profile. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAU.mobileconfig).
 * I'm trying to make an other profile for blocking some ads services. But it is still on the go.
 ## Step 3: Install your app without revocation from Apple
 Yeah. It's a very simple step. Install your app by a certificate, even a revoked certificate. Try it.
@@ -49,8 +49,12 @@ Yeah. It's a very simple step. Install your app by a certificate, even a revoked
 ## Step 4: Block Apple's certificate authenticator server
 * After installing your apps, open them at the first time for verifying your sideload apps and their certificate with Apple.
 * Then, block this Apple's server to decrease the revocation.
-* If you installed the `giantrule-RA.mobileconfig`. Keep going on with the `giantrule-RAP.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAP.mobileconfig)
-* Otherwises, if you installed the `giantrule-RAU.mobileconfig` profile, continue with the `giantrule-RAUP.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAUP.mobileconfig)
+* If you installed the `giantrule-RA.mobileconfig`. Keep going on with the `giantrule-RAP.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAP.mobileconfig).
+* Otherwises, if you installed the `giantrule-RAU.mobileconfig` profile, continue with the `giantrule-RAUP.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAUP.mobileconfig).
+
+## P/s
+In cases you want to install a new app, please repeate at Step 2 to 4.
+
 ## If it helps you, you can give me a cup of coffee
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)
 
