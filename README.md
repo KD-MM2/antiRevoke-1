@@ -36,8 +36,8 @@ This method protects your revoked certificate from Apple. That means you can hol
 * If it still didn't work. I think you should reset your phone to a new phone (erase all settings and contents) then start again. Sorry for that.
 
 ## Step 2: Install suitable profile
-* If you only want to block the revocation from Apple, let's install the normal anti-revoke profile `antiRevoke-giantrule.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/antiRevoke-giantrule.mobileconfig)
-* If you want block both certificate revocation and iOs update, install the `antiRevoke-blockUpdate-giantrule.mobileconfig` profile. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/antiRevoke-blockUpdate-giantrule.mobileconfig)
+* If you only want to block the revocation from Apple, let's install the normal anti-revoke profile `giantrule-RA.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RA.mobileconfig)
+* If you want block both certificate revocation and iOs update, install the `giantrule-RAU.mobileconfig` profile. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAU.mobileconfig)
 * I'm trying to make an other profile for blocking some ads services. But it is still on the go.
 ## Step 3: Install your app without revocation from Apple
 Yeah. It's a very simple step. Install your app by a certificate, even a revoked certificate. Try it.
@@ -45,10 +45,12 @@ Yeah. It's a very simple step. Install your app by a certificate, even a revoked
 <p align="center">
   <img src="https://github.com/giantrule/antiRevoke/raw/master/imgs/04.png">
 </p>
-
+## Step 4: Block Apple's certificate authenticator server
+* After installing your apps, open them at the first time for verifying your sideload apps and their certificate with Apple.
+* Then, block this Apple's server to decrease the revocation.
+* If you installed the `giantrule-RA.mobileconfig`. Keep going on with the `giantrule-RAP.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAP.mobileconfig)
+* Otherwises, if you installed the `giantrule-RAU.mobileconfig` profile, continue with the `giantrule-RAUP.mobileconfig`. On mobile, click [here](https://raw.githubusercontent.com/giantrule/antiRevoke/master/giantrule-RAUP.mobileconfig)
 ## If it helps you, you can give me a cup of coffee
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ltn119412)
 
-### Credit
-* Developed base on https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock
-* Proxy collection by © 2020 [@giantrule](https://github.com/giantrule/antiRevoke/)
+### © [@giantrule](https://github.com/giantrule/antiRevoke/) 2020
